@@ -18,7 +18,6 @@ export default function LoginScreen({navigation}) {
   const auth = useContext(AuthContext);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [user, setUser] = useState();
   useEffect(() => {}, []);
   const onLoginPress = async () => {
     const result = await userService.login({

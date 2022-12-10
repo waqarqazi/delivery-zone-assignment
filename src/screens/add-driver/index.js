@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useState} from 'react';
 
 import {styles} from './styles';
 import {
@@ -14,8 +14,6 @@ import {
 } from 'react-native';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import {appService} from 'services/app-service';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import AuthContext from 'utils/auth-context';
 import {
   heightPercentageToDP,
   widthPercentageToDP,
@@ -93,7 +91,6 @@ export default function AddDriver({navigation, route}) {
     }
   };
 
-  console.log('item', route?.params?.item);
   return (
     <View style={styles.containerView}>
       <Header

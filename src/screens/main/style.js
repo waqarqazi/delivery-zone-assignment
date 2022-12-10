@@ -9,7 +9,6 @@ export default StyleSheet.create({
   main: {
     flex: 1,
     alignItems: 'center',
-    padding: 10,
   },
   flatListView: {
     marginTop: 20,

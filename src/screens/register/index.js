@@ -11,7 +11,6 @@ import {
   Button,
   ScrollView,
 } from 'react-native';
-import Config from 'react-native-config';
 import {userService} from 'services/auth-service';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import AuthContext from 'utils/auth-context';

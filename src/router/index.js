@@ -58,7 +58,6 @@ const AssignmentRouter = () => {
 
       try {
         userToken = await AsyncStorage.getItem('token');
-        console.log('userToken', userToken);
       } catch (e) {
         // Restoring token failed
       }
